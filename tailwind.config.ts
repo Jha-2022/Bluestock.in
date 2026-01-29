@@ -47,6 +47,21 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        gain: {
+          DEFAULT: "hsl(var(--gain))",
+          foreground: "hsl(var(--gain-foreground))",
+        },
+        loss: {
+          DEFAULT: "hsl(var(--loss))",
+          foreground: "hsl(var(--loss-foreground))",
+        },
+        chart: {
+          bg: "hsl(var(--chart-bg))",
+          grid: "hsl(var(--chart-grid))",
+          "candle-up": "hsl(var(--chart-candle-up))",
+          "candle-down": "hsl(var(--chart-candle-down))",
+          wick: "hsl(var(--chart-wick))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +72,10 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        mono: ['JetBrains Mono', 'monospace'],
       },
       borderRadius: {
         lg: "var(--radius)",
